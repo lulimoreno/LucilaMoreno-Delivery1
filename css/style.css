@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main, header, footer {
+    width: 100%;
+}
+
+main, header {
+    margin: 50px 0;
+    padding: 0 50px;
+}
+
+footer {
+    background-color: blue;
+    height: 300px;
+}
+
+h1, h2 {
+    font-family: "Archivo", sans-serif;
+    text-align: left;
+    color: blue;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5em; /* 80px */
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    font-size: 2.63em; /* 42px */
+    margin-bottom: 50px;
+}
+
+h3, a {
+    font-family: "Roboto Mono", monospace;
+}
+
+header p, a {
+    font-size: 1.75em; /* 28px */
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    /* 24px */
+    color: blue;
+    border: 2px solid;
+    padding: 0.5em 1em;
+}
+
+a:hover {
+    color: blue;
+    border-radius: 50px;
+    background-color: greenyellow;
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    margin: 170px 0;
+}
+
+#thirdSection h2 {
+    text-align: right;
+    width: 50%
+}
+
+main p {
+    width: 33.33%; /* 4 columns */
+    font-size: 1.5em; /* 24px */
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+section h3, #thirdSection p {
+    width: 50%; /* 6 columns */
+}
+
+#secondSection img {
+    margin: auto;
+    width: 50%; 
+    display: block;
+    border: 3px solid black;
+}
+
+div {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div img {
+    width: 30%; 
+    border: 3px solid blue;
+}
+
+
+
+@media(max-width:768px) {
+    body {
+        font-size: 10px;
+    }
+
+}
